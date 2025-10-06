@@ -1,0 +1,33 @@
+body {
+  background-color: #f5fadb;
+  display: grid;
+  place-content: center;
+  height: 90vh;
+  font-family: 'Poppins';
+}
+
+h1 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 94px;
+}
+
+g {
+  overflow: hidden;
+  visibility: hidden;
+}
+
+
+svg {
+  width: 100%;
+  overflow: visible;
+}
+
+.reveal {
+  position: absolute;
+  height: 100vh;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  background-color: black;
+}
